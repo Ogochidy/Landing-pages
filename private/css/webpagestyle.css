@@ -1,0 +1,155 @@
+body {
+    padding: 0;
+    margin: 0
+}
+
+@font-face {
+    font-family: "lucky guy";
+    src: url("../../LuckiestGuy.ttf");
+  }
+.container{
+    background-image: url('../../teddy.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    padding: 19px 22px; 
+    width: 100%;
+    height: 100vh;
+}
+
+.sidebar{
+    height:100vh;
+    background-color: rgb(249, 230, 230);
+    width: 30%;
+    border-radius: 40px;
+    
+}
+.rightside{
+    height:100vh;
+    width: 70%;
+    padding-inline: 10%;
+}
+.toyheading{
+    text-align: center;
+    color: #9A7272;
+    font-family: lucky guy;
+    font-weight: 400;
+    font-size: 50px;
+    margin-top: 104.49px;
+}
+.list{
+    margin-top: 100px;
+    margin-left: 40px;
+    list-style: none;
+    color: #9A7272;
+}
+.home{
+    margin-top: 50px;
+}
+#cute{
+    font-size: 90px;
+    font-family: lucky guy;
+    font-weight: 400;
+    text-align: left;
+    color: #433C36;
+}
+.toys{
+    color:#C05B51;  
+}
+.buy{
+    font-size: 22px;
+    font-family: cursive;
+    font-weight: 400;
+    color:  rgba(0, 0, 0, 0.5);;
+    font-style: normal;
+    line-height: 138.9%;
+    letter-spacing: 0.07em;
+    position: absolute;
+}
+.order{
+    background-color: #C05B51;
+    color: white;
+    padding: 26px 51px ;
+    margin-top: 150px;
+    border-radius: 70px;
+    border: 0;
+}
+.inputbox{
+    background: #EAC7C6;
+    box-shadow: 0px 6px 32px -16px rgba(214, 128, 128, 0.51);
+    border-radius: 30px;
+    width: 250px;
+    padding: 22px 41px;    
+}
+
+.input{
+    border: 0;
+    background: transparent;
+    padding-left: 21px;
+    color: rgb(31, 30, 30);
+    
+}
+
+.input::placeholder{
+    color: #fff
+}
+
+.icon{
+    color: white;
+    font-weight: 300;
+}
+.menuflex{
+    display: flex;
+    justify-content: space-between;
+}
+.cartflex{
+    margin-top: 32px;
+    display: flex;
+    
+}
+
+.line{
+    background: #FDF3F3;
+    height: 3px;
+    width: 104px;
+}
+.cart{
+    margin-left: 20px;
+    color: #FDF3F3 ;
+}
+
+.user{
+    margin-left: 20px;
+    color: #FDF3F3;
+}
+
+.footerflex{
+    background-color: rgb(230, 210, 220);
+    margin-top: 45px;
+    padding: 7px;
+}
+.instagram{
+    margin-left: 50px;
+    color: #9A7272;
+}
+
+.facebook{
+    margin-left: 30px;
+    color: #9A7272;
+}
+
+.twitter{
+    margin-left: 30px;
+    color: #9A7272;
+}
+
+.muteeb{
+    font-size: 13px;
+    font-family: cursive;
+    font-weight: 400;
+    color:  rgba(0, 0, 0, 0.5);;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    margin-left: 50px;
+}
